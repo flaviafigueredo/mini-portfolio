@@ -1,0 +1,11 @@
+@media (max-width: 375px) {
+    .cartao, .informacoes-abas .informacao {
+        width: 340px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cartao, .informacoes-abas .informacao {
+        width: 300px;
+    }
+}
