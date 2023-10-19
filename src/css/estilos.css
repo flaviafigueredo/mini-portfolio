@@ -88,13 +88,13 @@ body {
     width: 50%;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 5px 0;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 }
 
 .cartao .abas img {
-    width: 30px;
+    width: 40px;
 }
 
 .cartao .abas .aba.selecionado {
@@ -138,6 +138,51 @@ body {
 }
 
 .informacoes-abas .descricao span {
+    color: #e126d9;
+}
+
+.informacao .projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.informacao .projetos .projeto h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.informacao .projetos .gif {
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.projetos .projeto {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e126d9;    
+}
+
+.projetos .projeto:last-child {
+    border: none;
+}
+
+.projeto .links-projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos .projeto a {
+    color: #f3f3f3;
+    padding-top: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.projetos .projeto a:hover {
     color: #e126d9;
 }
 
